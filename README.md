@@ -1,2 +1,1 @@
-# Parcel_build
-My build for parcel
+# Hello buddy! There is a simple Drum Kit to use. Have fun !
