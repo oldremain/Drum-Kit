@@ -24,12 +24,11 @@ function stopSound(e) {
     sound.play();
     this.innerHTML = 'Stop playing music';
     return;
-  } else {
-    sound.pause();
-    audios.forEach((audio) => audio.classList.remove('stoping'));
-    sound.classList.add('stoping');
-    this.innerHTML = `Play <i class="fa-solid fa-play"></i>`;
   }
+  sound.pause();
+  audios.forEach((audio) => audio.classList.remove('stoping'));
+  sound.classList.add('stoping');
+  this.innerHTML = `Play <i class="fa-solid fa-play"></i>`;
 }
 
 function removeAnimation(e) {
